@@ -66,69 +66,68 @@ Each facility at the club is tracked with the facility’s ID, the name of the f
 
 ![Screen Shot 2023-03-31 at 6 37 36 PM](https://user-images.githubusercontent.com/128402101/229244775-f60ebfa8-49b5-4dc1-95f4-ae027192c111.png)
 
-1. Query 1 lists the number of reservations at each dining establishment that were made for between 6 and 8pm as well as the name of each dining establishment these reservation were made for. The results are also ordered by number of reservations in descending order.
+1. Query 1 lists the type of equipment and the sum of quantity for each type of equipment.
 
 ![Screen Shot 2023-03-31 at 5 50 12 PM](https://user-images.githubusercontent.com/128402101/229239154-7637136b-5ddd-400c-9335-f3e571507ed7.png)
 
-Query 1 allows allows managers to see which establishments have received the most number of reservations during their busiest time (6-8pm) which is typically dinner time. These establishments likely need more support, resources, and personnel around dinner time. Therefore, this query allows managers to identify which establishments to allocate this extra help to. Listing the results in descending order of number of reservations makes it easier to see which establishment to prioritize.
+Query 1 organizes each type of equipment based on the amount of inventory pieces in that equipment. This is useful as a tennis club operator because it is always important to keep a proper inventory of each item, as well as how much space each type of equipment will take up.
 
-2. Query 2 lists the number of dining reservations made by guests on each floor. The results are ordered in ascending order of floor number.
+2.	Query 2 lists the first and last name concatenated of the staff member and the duration of the lessons in descending order that are at least 90 minutes long. 
 
 ![Screen Shot 2023-03-31 at 5 50 39 PM](https://user-images.githubusercontent.com/128402101/229239237-725cac35-598a-49e5-9b5d-bfc96fb18714.png)
 
-Query 2 allows managers to see whether there is a trend between what floor a guest stays on and how much they reserve tabes at the resort's dining establishments. If managers were to find that dining reservations decreased as the floor number increased, it would have possibly indicated that guests were not dining at dining establishments because they felt the distance of the dining establishment from their room was too far and inconvenient.
+Query 2 allows the database administrators to see which coaches are teaching the longer lessons. This tells the administrators which coaches will be spending more time on the court at a given time, in order to possibly assign bonuses or accolades to employees. For example, the employee who has given the most 2 hour lessons may earn an accolade at the end of the year.
 
-3. Query 3 lists the information for all the guests who have not made an activity reservation.
+3.	Query 3 counts the total number of lessons conducted by all staff members and lists the staff members’ first and last name. 
 
 ![Screen Shot 2023-03-31 at 5 52 01 PM](https://user-images.githubusercontent.com/128402101/229239403-19acc956-7345-406e-b7ba-a6eaf1c8db88.png)
 
-Query 3 allows the resort to market toward specific customers and contact them (e.g. promotional emails/coupons) about must-try activities. This helps to maximize revenue and increase efficiency by specifically targeting those who are not engaging in activities, rather than wasting time and resources to advertise to those who are already aware of and partaking in these activities.
+Query 3 allows management to keep a running list of staff members currently coaching lessons to members. By joining the lessons data and the staff data, management can quickly provide members with names of coaches actively teaching lessons. This query also allows management to keep track of how many lessons each coach has taught, which allows management to see what coach members prefer getting lessons from. 
 
-4. Query 4 lists the names and phone numbers of dining employees who work in the highest rated dining establishment.
+4.	Query 4 shows the product name and the total number of that product sold.
  
 ![Screen Shot 2023-03-31 at 5 53 30 PM](https://user-images.githubusercontent.com/128402101/229239730-7f5416bd-0aff-4c4a-b64d-7f365f246a36.png)
 
-A restaurant with a high star rating is a large source of revenue for the resort and management may want to know the names of the employees who work there and how to contact them to reward them for maintaining such a high achieving restaurant (e.g. via a bonus, raise, awards, recognition) or to know which employees to target for continuous training and supervision in order to keep service within the establishment in top shape.
+Query 4 helps management keep track of product inventory. Its function is to show the total quantity of each product currently available for sale. This information allows an up-to-date record of stock levels, enabling efficient management of inventory. The monitoring of product sales aids in detecting any discrepancies between the quantity of goods in stock and the corresponding records management has. These inconsistencies may indicate an issue of stealing or inaccuracies in inventory recording .
 
-5. Query 5 lists the guests’ names and the hotel they are checking into if their reservation is during the PM, their room is a single or suite, their check in dates are between 2023-04-01 and 2023-04-10, and their hotel rating is above a 4.
+5.	Query 5 displays the member’s name and the city the member is from, only listing who has bought a product from the pro shop. The cities are ordered alphabetically.
 
 ![Screen Shot 2023-03-31 at 5 54 41 PM](https://user-images.githubusercontent.com/128402101/229239947-e3c0ab47-c77c-474b-81c1-1b187548b89c.png)
 
-Query 5 allows the resort to manage how busy their check in will be during the PM hours of early April in their better hotels where the check in rooms are singles or suites. This can help the resort determine how many employees need to be working the check in desks to check in single or suite reservations in the afternoon of these dates in these specific hotels.
+Query 5 provides management with a clear overview of members who have purchased products from the pro shop, along with their respective cities. This information enables targeted marketing campaigns for cities where pro shop sales are low as selling products from pro shops will help gain revenue for management.  It also allows all null values to be excluded so management is only looking at data where there are pro shop sales. 
 
-6. Query 6 lists the names of guests who have over 10 activity reservations and the activities that they have those reservations in.
+6.	Query 6 lists members names who have reserved more than one court and the number of courts they have reserved.
 
 ![Screen Shot 2023-03-31 at 5 55 37 PM](https://user-images.githubusercontent.com/128402101/229240045-10ca60c7-1cb2-49e2-a224-256c841e5fd8.png)
 
-Query 6 allows the resort to determine what guests are contributing the most to each activity’s revenue. The resort may use this information to reward guests who spend the most on activities by offering special prizes and promotions, creating guest loyalty and creating an incentive to reserve even more.
+Query 6 helps management identify members who have reserved more than one court, along with the count of courts each member has reserved. By understanding which members utilize multiple courts, management can allocate resources more efficiently and potentially identify opportunities to offer specialized services or promotions to these members to enhance their experience.
 
-7. Query 7 lists the the amount of dining reservations per guest and the average amount of guests these reservations have.
-
+7.	Query 7 identifies coaches with the highest revenue generated from lessons. 
 ![Screen Shot 2023-03-31 at 5 56 06 PM](https://user-images.githubusercontent.com/128402101/229240108-152740f1-4c85-4a38-9194-c981cf33fc42.png)
 
-Query 7 allows the resort to see how many guests they should plan to seat, how the tables should be set up, and can lead to the resort figuring out how much revenue should be expected for the average visit.
+Query 7 provides management with insights into the revenue generated by coaches through conducting lessons. By listing coaches along with the total revenue generated from lessons, management can identify high-performing coaches and potentially incentivize them further. Understanding the revenue generated by each coach helps management make informed decisions regarding staffing, compensation, and resource allocation.
 
-8. Query 8 lists the guestID, guest name, and the number of room reservations per guest.
+8.	Query 8 This query retrieves members with expired memberships who have not made any court reservations.
 
 ![Screen Shot 2023-03-31 at 6 34 05 PM](https://user-images.githubusercontent.com/128402101/229244470-c29f68b3-f837-4a18-97bb-f86345b84431.png)
 
-Query 8 allows the resort to identify their frequent customers and how many times they have stayed. This could lead to a card system down the line. If a guest reaches 5 or 10 visits, there could be a platinum card which would gift the user reservation priority, food discounts, and other perks.
+Query 8 retrieves members with expired memberships who have not made any court reservations. It helps management identify inactive members who may need to renew their memberships or be encouraged to utilize club facilities more actively. By targeting these members, management can implement retention strategies to prevent membership lapses and promote member engagement.
 
-9. Query 9 lists all the rooms along with their average room view rating if the rating is above a 4 star. Additionally, the query is sorted by the view rating and arranged in descending order.
+9.	Query 9 lists the member name concatenated and the total dollars spent for transactions that contained more than one product in descending order
 
 ![Screen Shot 2023-03-31 at 5 56 31 PM](https://user-images.githubusercontent.com/128402101/229240166-bb0bc849-08dd-4521-8608-7a85ff53ae46.png)
 
-Query 9 allows the employees and customers to see which rooms have an average view rating of 4 or more. Rooms with extravagant views are huge attractions to customers and can be a deciding factor when picking which room to stay in. This will help employees find which rooms have the best views fast and efficiently when asked.
+Query 9 query proves useful for the database administrators because it allows them to see which club members have spent the most dollars on products they sell. It helps management identify members who make bulk purchases, allowing them to understand purchasing behavior and potentially offer tailored promotions or discounts to incentivize further spending.
 
-10. Query 10 lists the names and prices of all activities offered by the resort that have not yet been booked by any guests and that are less than or equal to $50. Additionally, the results of the query are ordered by price in ascending order.
+10.	Query 10 retrieves information about facilities in Georgia and calculates the total number of reservations made for each of these facilities.
 
 ![Screen Shot 2023-03-31 at 5 57 00 PM](https://user-images.githubusercontent.com/128402101/229240218-c01fb32b-5f71-4562-b014-b656bfe051bb.png)
 
-Query 10 allows the employees and customers to see what activities have not been booked yet, and the prices for these activities. The price is sorted in ascending order to make it easier to find the most affordable activities which most people are looking for. Activities are a huge part of the resort experience and using this script will make it easy for employees to find which activities are available as well as the prices for these activities.
+Query 10 provides useful for managers by counting the reservations associated with each tennis facility, managers can assess the popularity and demand for tennis amenities among club members. This information allows managers to make data-driven decisions regarding resource allocation, facility maintenance schedules, and potential expansion or improvement of tennis facilities.
 
 ## Database information:
 
-Name of the database: ns_21479_1
+Name of the database: ns_Sp24_21484_Group6
 
-Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: 
-CALL TP_Q1();
+Additional information: Each query listed above is marked in the database using stored procedures which can be call using the following format (Replace X with the question number): 
+CALL TP_QX();
