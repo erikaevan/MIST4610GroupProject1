@@ -34,17 +34,17 @@ Each facility at the club is tracked with the facility’s ID, the name of the f
 ![DataModel](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/DataModel.jpg)
 
 ## Data Dictionary:
-![Screen Shot 2023-03-30 at 9 47 17 PM](https://user-images.githubusercontent.com/128402101/229002096-362cf55c-86b7-40e0-ae42-6120c5ab3d51.png)
+![Courts](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/01.Courts.png)
 
-![Screen Shot 2023-03-30 at 9 47 45 PM](https://user-images.githubusercontent.com/128402101/229002159-c7242e00-592e-4b10-9a09-1510a2728a4d.png)
+![Events](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/02.Events.png)
 
-![Screen Shot 2023-03-30 at 9 48 13 PM](https://user-images.githubusercontent.com/128402101/229002240-9817894f-9efd-4b15-af49-9712e8ec225b.png)
+![Facility](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/03.Facility.png)
 
-![Screen Shot 2023-03-30 at 9 55 12 PM](https://user-images.githubusercontent.com/128402101/229003109-3e9ec7ce-6368-4b85-95c8-facfa2fc1859.png)
+![Equipment](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/04.Equipment.png)
 
-![Screen Shot 2023-03-30 at 9 55 31 PM](https://user-images.githubusercontent.com/128402101/229003151-df7093e1-2245-4c2c-a2ed-7ae4b63c0f3f.png)
+![Lesson](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/05.Lesson.png)
 
-![Screen Shot 2023-03-30 at 9 56 18 PM](https://user-images.githubusercontent.com/128402101/229003272-e4f940d4-a2e6-428a-b009-719a7677b888.png)
+![Member](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/06.Member.png)
 
 ![Screen Shot 2023-03-30 at 9 56 39 PM](https://user-images.githubusercontent.com/128402101/229003314-fe200a9c-db98-4447-b5d6-5f7d84e3f135.png)
 
