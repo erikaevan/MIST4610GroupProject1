@@ -46,17 +46,21 @@ Each facility at the club is tracked with the facility’s ID, the name of the f
 
 ![Member](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/06.Member.png)
 
-![Screen Shot 2023-03-30 at 9 56 39 PM](https://user-images.githubusercontent.com/128402101/229003314-fe200a9c-db98-4447-b5d6-5f7d84e3f135.png)
+![Membership](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/07.Membership.png)
 
-![Screen Shot 2023-03-30 at 9 57 21 PM](https://user-images.githubusercontent.com/128402101/229003410-d264d5fa-52f4-412c-9663-7171571ad564.png)
+![Payments](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/08.Payments.png)
 
-![Screen Shot 2023-03-30 at 9 57 51 PM](https://user-images.githubusercontent.com/128402101/229003478-1b07581a-b8a2-4687-a4a7-9687c1cb2139.png)
+![Products](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/09.Products.png)
 
-![Screen Shot 2023-03-30 at 9 58 07 PM](https://user-images.githubusercontent.com/128402101/229003507-19f9582f-49a2-4cae-9d88-4eadb842ba66.png)
+![Reservation](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/10.Reservation.png)
 
-![Screen Shot 2023-03-30 at 9 58 29 PM](https://user-images.githubusercontent.com/128402101/229003554-6ae5e483-a161-4060-a113-ff7bbb5e4c1d.png)
+![Sponsor](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/11.Sponsor.png)
 
-![Screen Shot 2023-03-30 at 9 58 48 PM](https://user-images.githubusercontent.com/128402101/229003594-e640c190-4e87-4d4d-a81b-7f04085cbed8.png)
+![Staff](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/12.Staff.png)
+
+![Transaction](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/13.Transaction.png)
+
+![TransactionDetails](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/14.TransactionDetails.png)
 
 ## Queries:
 
