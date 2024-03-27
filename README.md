@@ -31,7 +31,7 @@ Another entity that the club’s data model heavily revolves around is the staff
 
 Each facility at the club is tracked with the facility’s ID, the name of the facility, and the address. Additionally, at the facility, there is equipment available to be used. Each piece of equipment is tracked with its own ID, the name of the equipment, the type of equipment, the quantity of the equipment available, the condition it is in, and which facility the equipment is located at. 
 
-![Screen Shot 2023-03-30 at 9 42 10 PM](https://user-images.githubusercontent.com/128402101/229001455-ddc3361b-422f-483c-b4d8-01edc47e4afa.png)
+![DataModel](https://github.com/lukemichaelis/MIST4610GroupProject1/blob/main/DataModel.jpg)
 
 ## Data Dictionary:
 ![Screen Shot 2023-03-30 at 9 47 17 PM](https://user-images.githubusercontent.com/128402101/229002096-362cf55c-86b7-40e0-ae42-6120c5ab3d51.png)
